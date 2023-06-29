@@ -281,6 +281,11 @@ a.header_link {
   text-decoration: none;
   color: #6c757d;
 }
+a.donload_link {
+  text-decoration: none;
+  color: #6c757d;
+  text-transform: uppercase;
+}
 
 a:hover {
   color: var(--bs-link-hover-color);
