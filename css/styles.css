@@ -102,7 +102,7 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   /* background-color: var(--bs-body-bg); */
-  background-color: #aeb7c6;
+  background-color: rgb(174, 183, 198, 0.5);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -285,6 +285,7 @@ a.donload_link {
   text-decoration: none;
   color: #6c757d;
   text-transform: uppercase;
+  padding-right: 50px;
 }
 
 a:hover {
