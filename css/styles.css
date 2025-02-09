@@ -54,12 +54,13 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans",
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* Використовуємо Roboto Flex */
+  --bs-font-sans-serif: "Roboto Flex", sans-serif;
+  --bs-body-font-family: "Roboto Flex", sans-serif;
+
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -80,7 +81,6 @@
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
-
 *,
 *::before,
 *::after {
@@ -11163,6 +11163,9 @@ p.lead {
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
 }
+.no-underline {
+  text-decoration: none;
+}
 
 .dev-icons {
   font-size: 3rem;
@@ -11179,6 +11182,9 @@ section.resume-section {
 }
 section.resume-section .resume-section-content {
   width: 100%;
+}
+.img-width{
+    width: 30%;
 }
 
 @media (min-width: 768px) {
